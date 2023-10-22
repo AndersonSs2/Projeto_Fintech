@@ -1,0 +1,31 @@
+.imgslogan{
+    position: relative;
+    width: 100%;
+    top: 4px;
+}
+
+.textoslogan{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    top: 400px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-left: 150px;
+    font-family: 'inika';
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.textoslogan2{
+    position: absolute;
+    top: 680px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-left: 150px;
+    font-family: 'inika';
+    background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Area_Cartao_Credito from './componentes/Area_Cartao_Credito';
+import Area_ExemploAPP from './componentes/Area_ExemploAPP';
+import Area_Vantagens from './componentes/Area_Vantagens';
+import Footer from './componentes/Footer';
+import Header from './componentes/Header';
+import Slogan from './componentes/Slogan';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+        <Header/>
+        <Slogan/>
+        <Area_Cartao_Credito/>
+        <Area_Vantagens/>
+        <Area_ExemploAPP/>
+        <Footer/>
+    </main>
   );
 }
 

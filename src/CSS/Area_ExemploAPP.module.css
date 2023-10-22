@@ -1,0 +1,20 @@
+.sectionexemploapp{
+    background-color: white;
+    height: 780px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem_app{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.paragrafoapp{
+    margin-top: 150px;
+    width: 750px;
+    font-size: 40px;
+    margin-left: 80px;
+    text-align: center;
+    font-family: 'Inika';
+}

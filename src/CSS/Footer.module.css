@@ -1,0 +1,44 @@
+.sectionfooter{
+    background-color: black;
+    height: 360px;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.ulfooter2{
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+.ulfooter1{
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+Iframe{
+    margin-left: 300px;
+    border-radius: 20px;
+}
+
+.areaiconesapp{
+    position: relative;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    left: 150px;
+}
+
+.direitos{
+    margin-top: -40px;
+    height: 25px;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,47 @@
+article{
+    background-image: url('../imagens/fundo_cartao_credito.png');
+    background-size: cover;
+    height: 780px;
+    display: flex;
+    font-family: 'Inika', Helvetica, sans-serif;
+}
+
+.areatexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    font-size: 40px;
+    margin-top: -130px;
+    margin-left: 50px;
+}
+
+hr{
+    background-color: black;
+    height: 1px;
+    width: 700px;
+    margin-left: 130px;
+    margin-top: -90px;
+}
+
+h2{
+    width: 650px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.imgcartao{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 450px;
+    height: 650px;
+}
